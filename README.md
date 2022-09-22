@@ -30,27 +30,27 @@ abbreviations: NLP : negative log10 of chi.test p-values
 ### network with louvain communities detection with nicely layout
 > chinet(results,fold=0.5,cex=2,distance=3,family="sans",layout=layout_nicely)
 
-fold parameter increase difference of size of the weighted edges
+- fold parameter: increase difference of size of the weighted edges
 
-cex parameter change size of the vertex (nodes) label
+- cex parameter: change size of the vertex (nodes) label
 
-distance parameter change the distance between the vertex and its label
+- distance parameter: change the distance between the vertex and its label
 
-family parameter change the font family of the vertex label
+- family parameter: change the font family of the vertex label
 
-layout parameter change the design of the network and have several options such as: (layout_as_star, layout_components, layout_in_circle, layout_nicely,layout_on_grid,
+- layout parameter: change the design of the network and have several options such as: (layout_as_star, layout_components, layout_in_circle, layout_nicely,layout_on_grid,
 layout_on_sphere, layout_randomly, layout_with_dh, layout_with_drl, layout_with_fr, layout_with_gem,
 layout_with_graphopt, layout_with_kk, layout_with_lgl, layout_with_mds)
 
 ![chinet2a](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetnicely.jpeg)
 
-chinet with circle layout:
+### chinet with circle layout:
 
 > chinet(results,fold=0.5,cex=2,distance=3,family="sans",layout=layout_in_circle)
 
 ![chinet2b](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetincircle.jpeg)
 
-chinet with star layout and different changes in the parameters:
+### chinet with star layout and different changes in the parameters:
 
 > chinet(res,fold=0.5,cex=3,distance=5,family="mono",layout=layout_as_star)
 
