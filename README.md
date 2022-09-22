@@ -42,14 +42,19 @@ layout parameter change the design of the network and have several options such 
 layout_on_sphere, layout_randomly, layout_with_dh, layout_with_drl, layout_with_fr, layout_with_gem,
 layout_with_graphopt, layout_with_kk, layout_with_lgl, layout_with_mds)
 
-![chinet2](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetnicely.jpeg)
+![chinet2a](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetnicely.jpeg)
 
 chinet with circle layout:
 
 > chinet(results,fold=0.5,cex=2,distance=3,family="sans",layout=layout_in_circle)
 
-![chinet2](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetincircle.jpeg)
+![chinet2b](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetincircle.jpeg)
 
+chinet with star layout and different changes in the parameters:
+
+> chinet(res,fold=0.5,cex=3,distance=5,family="mono",layout=layout_as_star)
+
+![chinet2c](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetstar.jpeg)
 
 ### remarks
 
