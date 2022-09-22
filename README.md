@@ -34,7 +34,9 @@ fold parameter increase difference of size of the weighted edges
 cex parameter change size of the vertex (nodes) label
 distance parameter change the distance between the vertex and its label
 family parameter change the font family of the vertex label
-layout parameter change the design of the network and have several options such as: 
+layout parameter change the design of the network and have several options such as: (layout_as_star, layout_components, layout_in_circle, layout_nicely,layout_on_grid,
+layout_on_sphere, layout_randomly, layout_with_dh, layout_with_drl, layout_with_fr, layout_with_gem,
+layout_with_graphopt, layout_with_kk, layout_with_lgl, layout_with_mds)
 
 ![chinet2](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetnicely.jpeg)
 
