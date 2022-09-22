@@ -27,12 +27,23 @@ abbreviations: NLP : negative log10 of chi.test p-values
 
 ![nlpplot](https://github.com/cdesterke/chi2loop_v2/blob/main/nlpplot.jpeg)
 
-### network with louvain communities detection
-> chinet(results,fold=0.5)
+### network with louvain communities detection with nicely layout
+> chinet(results,fold=0.5,cex=2,distance=3,family="sans",layout=layout_nicely)
 
-fold parameter reduce difference of size from the weighted edges
+fold parameter increase difference of size of the weighted edges
+cex parameter change size of the vertex (nodes) label
+distance parameter change the distance between the vertex and its label
+family parameter change the font family of the vertex label
+layout parameter change the design of the network and have several options such as: 
 
 ![chinet2](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetnicely.jpeg)
+
+chinet with circle layout:
+
+> chinet(results,fold=0.5,cex=2,distance=3,family="sans",layout=layout_in_circle)
+
+![chinet2](https://github.com/cdesterke/chi2loop_v2/blob/main/chinetincircle.jpeg)
+
 
 ### remarks
 
