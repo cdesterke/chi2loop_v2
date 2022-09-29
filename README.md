@@ -2,6 +2,13 @@
 R package chi2loop in version 2.0.0
 
 
+### package installation
+```r
+library(devtools)
+install_github("cdesterke/chi2loop_v2")
+```
+
+
 chi2loop R-package was designed to perform 2 by 2 loops of chi.square tests between categrorial variables defined as character columns in imported dataset. 
 Importantly, chi2loop package could work on dataframes containing missing data.
 
