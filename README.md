@@ -6,6 +6,7 @@ R package chi2loop in version 2.0.0
 ```r
 library(devtools)
 install_github("cdesterke/chi2loop_v2")
+library(chi2loop)
 ```
 
 
