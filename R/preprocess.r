@@ -26,7 +26,7 @@ preprocess<-function(df){
     df %>% mutate_if(is.factor, as.character) -> df    
     
 	#remove columns with only one value
-    df %>% na.omit()%>% select(where(~n_distinct(.) > 1))%>%names()->selection
+    df %>%select_if(~ !any(is.na(.))) %>%select(where(~n_distinct(.) > 1))%>%names()->selection
     df %>%select(all_of(selection))->df
     return(df)
 }
